@@ -1,12 +1,10 @@
 class Solution {
     public String solution(int num) {
-        if(num < 0){
-           num = num * -1; 
-        }
-        if(num % 2 == 1) {
-            return "Odd";
-        } else {
+    
+        if(num % 2 == 0) {
             return "Even";
+        } else {
+            return "Odd";
         }
     }
 }
